@@ -1,0 +1,39 @@
+import {
+  Meta,
+  Props,
+  Title,
+  Subtitle,
+  Description,
+  Primary,
+  ArgsTable,
+  Stories,
+  PRIMARY_STORY,
+} from '@storybook/addon-docs'
+
+<Title />
+<Subtitle />
+<Description />
+
+Some component `markdown` [test link](http://www.test.com)
+
+## Import
+
+```jsx
+import { Alert } from 'nui'
+```
+
+## Usage
+
+```jsx
+<Alert title="Some very important message" />
+```
+
+## Default
+
+<Primary />
+
+## Props
+
+<ArgsTable story={PRIMARY_STORY} />
+
+<Stories title="Examples" />

@@ -1,0 +1,40 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:storybook/recommended",
+    "plugin:mdx/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": ["prettier", "@typescript-eslint"],
+  "settings": {
+    "mdx/code-blocks": true
+  },
+  "rules": {
+    "no-case-declarations": [0],
+    "no-console": [0],
+    "no-undef": [0],
+    "no-unused-vars": [0],
+    "@typescript-eslint/no-unused-vars": [0],
+    "@typescript-eslint/no-var-requires": [0],
+    "@typescript-eslint/no-use-before-define": [0],
+    "@typescript-eslint/no-non-null-assertion": [0],
+    "@typescript-eslint/no-explicit-any": [0],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  }
+}
