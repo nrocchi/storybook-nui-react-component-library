@@ -45,7 +45,7 @@ npm install nui
 
 #### Cloning the repository
 ```shell
-git clone ...
+git clone https://github.com/nrocchi/storybook-nui-react-component-library.git
 ```
 
 #### Install packages
